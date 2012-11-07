@@ -51,7 +51,7 @@
 
         escape.call(this)
         backdrop.call(this, function () {
-          var transition = $.support.transition && that.$element.hasClass('fade')
+          var transition = $.support.transition && that.$element.hasClass('fade');
 
           !that.$element.parent().length && that.$element.appendTo(document.body) //don't move modals dom position
 
