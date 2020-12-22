@@ -133,15 +133,15 @@
     line-height: @lineHeight;
   }
   .serif(@size: @baseFontSize, @weight: normal, @lineHeight: @baseLineHeight) {
-    #font > #family > .serif;
+    #font > #family > .serif();
     #font > .shorthand(@size, @weight, @lineHeight);
   }
   .sans-serif(@size: @baseFontSize, @weight: normal, @lineHeight: @baseLineHeight) {
-    #font > #family > .sans-serif;
+    #font > #family > .sans-serif();
     #font > .shorthand(@size, @weight, @lineHeight);
   }
   .monospace(@size: @baseFontSize, @weight: normal, @lineHeight: @baseLineHeight) {
-    #font > #family > .monospace;
+    #font > #family > .monospace();
     #font > .shorthand(@size, @weight, @lineHeight);
   }
 }
